@@ -9,5 +9,12 @@ function init() {
    audio1.pause()
     var audio = new Audio('pixelperfect.mp3');
 audio.play();
+
+
+
+    var button = document.getElementById("yahoo");
+    button.addEventListener('click', ()=>{
+      audio1.play()
+    })
   });
 }
