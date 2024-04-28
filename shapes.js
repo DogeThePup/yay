@@ -3,12 +3,13 @@ let maxwell;
 
 function init() {
   maxwell = document.getElementById("maxwell");
-  var audio1 = new Audio('mexwellsound.mp3');
-  audio1.play()
+  var audio = new Audio('pixelperfect.mp3');
+  audio.play()
   maxwell.addEventListener('click', () => {
-   audio1.pause()
-    var audio = new Audio('pixelperfect.mp3');
-audio.play();
+   audio.pause()
+    var audio1 = new Audio('mexwellsound.mp3');
+audio1.play();
+  })
 
 
 
@@ -16,5 +17,5 @@ audio.play();
     button.addEventListener('click', ()=>{
       audio.play()
     })
-  });
+  
 }
