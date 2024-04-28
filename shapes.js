@@ -14,7 +14,7 @@ audio.play();
 
     var button = document.getElementById("yahoo");
     button.addEventListener('click', ()=>{
-      audio1.play()
+      audio.play()
     })
   });
 }
