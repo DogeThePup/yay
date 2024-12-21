@@ -1,5 +1,6 @@
 window.onload = init
 let maxwell;
+sys.set_int_max_str_digits(5000)
 
 function init() {
   maxwell = document.getElementById("maxwell");
@@ -29,12 +30,13 @@ audio1.loop();
     })
     var button = document.getElementById("Volume Up");
     button.addEventListener('click', ()=>{
-      audio.volume(+1)
+      audio.volume(1)
       
     })
     var button = document.getElementById("Volume Down");
     button.addEventListener('click', ()=>{
-      audio.volume(-1)
+      audio.volume(.5)   
+      
       
     })
   }
