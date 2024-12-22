@@ -13,7 +13,7 @@ function init() {
   maxwell.addEventListener('click', () => {
    audio.pause()
     var audio1 = new Audio('mexwellsound.mp3');
-audio.plau();
+audio.play();
   })
 
 
