@@ -30,12 +30,12 @@ audio1.loop();
     })
     var button = document.getElementById("Volume Up");
     button.addEventListener('click', ()=>{
-      audio.volume(1)
+      HTMLMediaElement.volume;1.1
       
     })
     var button = document.getElementById("Volume Down");
     button.addEventListener('click', ()=>{
-      audio.volume(.5)   
+      HTMLMediaElement.volume;.5 
       
       
     })
