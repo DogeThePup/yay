@@ -27,9 +27,15 @@ audio1.play();
       audio.pause()
       
     })
+    var button = document.getElementById("Going Deaf");
+    button.addEventListener('click', ()=>{
+      audio.pause()
+      
+    })
+
     var button = document.getElementById("Hearing Aid");
     button.addEventListener('click', ()=>{
-      audio.play()
+      audio1.pause()
       
     })
     var button = document.getElementById("Volume Up");
