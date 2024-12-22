@@ -2,6 +2,10 @@ window.onload = init
 let maxwell;
 sys.set_int_max_str_digits(5000)
 
+var button = document.getElementById("yahoo");
+    button.addEventListener('click', ()=>{
+      audio.play()
+    })
 function init() {
   maxwell = document.getElementById("maxwell");
   var audio = new Audio('pixelperfect.mp3');
