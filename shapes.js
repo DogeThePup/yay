@@ -34,12 +34,12 @@ audio1.play();
     })
     var buttonup = document.getElementById("Volume Up");
     buttonup.addEventListener('click', ()=>{
-      HTMLMediaElement.volume += .1
+      audio.volume += .5
       
     })
     var buttondown = document.getElementById("Volume Down");
     buttondown.addEventListener('click', ()=>{
-      HTMLMediaElement.volume -= .1 
+      audio.volume -= .5 
       
       
     })
