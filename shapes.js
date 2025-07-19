@@ -18,37 +18,27 @@ audio1.play();
 
 
 
-    var button = document.getElementById("yahoo");
-    button.addEventListener('click', ()=>{
+    var buttonyagoo = document.getElementById("yahoo");
+    buttonyagoo.addEventListener('click', ()=>{
       audio.play()
     })
-    var button = document.getElementById("Going Deaf");
-    button.addEventListener('click', ()=>{
+    var buttondeaf = document.getElementById("Going Deaf");
+    buttondeaf.addEventListener('click', ()=>{
       audio.pause()
       
     })
-    var button = document.getElementById("Going Deaf");
-    button.addEventListener('click', ()=>{
-      audio.pause()
+    var buttonhear = document.getElementById("Hearing Aid");
+    buttonhear.addEventListener('click', ()=>{
+      audio.play()
       
     })
-    var button = document.getElementById("Hearing Aid");
-    button.addEventListener('click', ()=>{
-      audio1.pause()
-      
-    })
-    var button = document.getElementById("Hearing Aid");
-    button.addEventListener('click', ()=>{
-      audio1.pause()
-      
-    })
-    var button = document.getElementById("Volume Up");
-    button.addEventListener('click', ()=>{
+    var buttonup = document.getElementById("Volume Up");
+    buttonup.addEventListener('click', ()=>{
       HTMLMediaElement.volume += .1
       
     })
-    var button = document.getElementById("Volume Down");
-    button.addEventListener('click', ()=>{
+    var buttondown = document.getElementById("Volume Down");
+    buttondown.addEventListener('click', ()=>{
       HTMLMediaElement.volume -= .1 
       
       
