@@ -44,12 +44,12 @@ audio1.play();
     })
     var button = document.getElementById("Volume Up");
     button.addEventListener('click', ()=>{
-      HTMLMediaElement.volume;1.1
+      HTMLMediaElement.volume += .1
       
     })
     var button = document.getElementById("Volume Down");
     button.addEventListener('click', ()=>{
-      HTMLMediaElement.volume;.5 
+      HTMLMediaElement.volume -= .1 
       
       
     })
