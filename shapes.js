@@ -49,13 +49,13 @@ var buttondown = document.getElementById("dark mode");
       darkmode = !darkmode
       var heading = document.getElementByTagName("h1")
       if (darkmode) {
-      document.body.style.backgroundColor = "black";
-      heading.stlye.backgroundColor = "black"
-      heading.stlye.color = "white"
+      document.body.style.backgroundColor = 'black';
+      heading.stlye.backgroundColor = 'black'
+      heading.stlye.color = 'white'
       } else {
-              document.body.style.backgroundColor = "white";
-          heading.stlye.backgroundColor = "white"
-          heading.stlye.color = "black"
+              document.body.style.backgroundColor = 'white';
+          heading.stlye.backgroundColor = 'white'
+          heading.stlye.color = 'black'
       }
     })
   }
