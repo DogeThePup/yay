@@ -49,10 +49,12 @@ var buttondark = document.getElementById("dark mode");
       var heading = document.getElementsByTagName("h1")[0]
       if (darkmode) {
       document.body.style.backgroundColor = 'black';
+      document.html.style.backgroundColor = 'black';
       heading.style.backgroundColor = 'black'
       heading.style.color = 'white'
       } else {
               document.body.style.backgroundColor = 'white';
+              document.html.style.backgroundColor = 'white';
           heading.style.backgroundColor = 'white'
           heading.style.color = 'black'
       }
