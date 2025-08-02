@@ -1,6 +1,5 @@
 window.onload = init
 let maxwell;
-sys.set_int_max_str_digits(5000)
 var darkmode = false
 var button = document.getElementById("yahoo");
     button.addEventListener('click', ()=>{
@@ -47,15 +46,15 @@ audio1.play();
 var buttondark = document.getElementById("dark mode");
     buttondark.addEventListener('click', ()=>{ 
       darkmode = !darkmode
-      var heading = document.getElementByTagName("h1")[0]
+      var heading = document.getElementsByTagName("h1")[0]
       if (darkmode) {
       document.body.style.backgroundColor = 'black';
       heading.style.backgroundColor = 'black'
       heading.style.color = 'white'
       } else {
               document.body.style.backgroundColor = 'white';
-          heading.stlye.backgroundColor = 'white'
-          heading.stlye.color = 'black'
+          heading.style.backgroundColor = 'white'
+          heading.style.color = 'black'
       }
     })
   }
