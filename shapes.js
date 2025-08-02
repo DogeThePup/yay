@@ -44,8 +44,8 @@ audio1.play();
       audio1.volume -= .1 
       
     })
-var buttondown = document.getElementById("dark mode");
-    buttondown.addEventListener('click', ()=>{ 
+var buttondark = document.getElementById("dark mode");
+    buttondark.addEventListener('click', ()=>{ 
       darkmode = !darkmode
       var heading = document.getElementByTagName("h1")
       if (darkmode) {
