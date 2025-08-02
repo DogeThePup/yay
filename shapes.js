@@ -47,11 +47,11 @@ audio1.play();
 var buttondark = document.getElementById("dark mode");
     buttondark.addEventListener('click', ()=>{ 
       darkmode = !darkmode
-      var heading = document.getElementByTagName("h1")
+      var heading = document.getElementByTagName("h1")[0]
       if (darkmode) {
       document.body.style.backgroundColor = 'black';
-      heading.stlye.backgroundColor = 'black'
-      heading.stlye.color = 'white'
+      heading.style.backgroundColor = 'black'
+      heading.style.color = 'white'
       } else {
               document.body.style.backgroundColor = 'white';
           heading.stlye.backgroundColor = 'white'
