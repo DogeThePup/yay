@@ -2,10 +2,7 @@ window.onload = init
 let maxwell;
 let kirb
 var darkmode = false
-var button = document.getElementById("yahoo");
-button.addEventListener('click', ()=>{
-  audio.play()
-})
+var button
 var audio
 var audio1
 var audio2kirb
@@ -24,6 +21,10 @@ function init() {
     audio2kirb = new Audio('poyo.mp3');
     audio2kirb.play();
   })
+  button = document.getElementById("yahoo");
+button.addEventListener('click', ()=>{
+  audio.play()
+})
   
   
   var buttonyagoo = document.getElementById("yahoo");
